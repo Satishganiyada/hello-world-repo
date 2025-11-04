@@ -1,6 +1,6 @@
 name: Hello World
-'on': 
-  workflow dispatch:
+on: 
+  workflow_dispatch:
 jobs:
   hello-job:
     runs-on: ubuntu-latest
@@ -8,3 +8,4 @@ jobs:
       - name: Echo text
 
         run: 'echo "Hello, world!"'
+
